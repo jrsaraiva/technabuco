@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+
 	<link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
@@ -19,15 +21,14 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">TechNabuco - 2016</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="navbar-collapse-main">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#home">Inicio</a></li>
-					<li><a href="#evento">Evento</a></li>
+					<li><a href="#about">Evento</a></li>
 					<li><a href="#palestrante">Palestrantes</a></li>
-					<li><a href="#local">Local</a></li>
+          <li><a href="#programacao">Programação</a></li>
 					<li><a href="#inscricao">Inscrição</a></li>
 				</ul>
 			</div>
@@ -55,8 +56,8 @@
   	</div>
 	</div>
 
-	<!-- third section - Services -->
-<div id="services" class="pad-section bg-azul">
+	
+<div id="palestrante" class="pad-section bg-azul">
   <div class="container">
     <h2 class="text-center">Palestrantes</h2> <hr />
     <div class="row text-center">
@@ -95,9 +96,9 @@
     </div>
   </div>
 </div>
-<!-- /third section -->
 
-<div id="progrmacao" class="pad-section">
+
+<div id="programacao" class="pad-section">
   <div class="container">
     <h2 class="text-center">Programação</h2> <hr />
     <div class="table-responsive">
@@ -195,6 +196,7 @@
 
 <div id="inscricao" class="pad-section bg-azul">
   <div class="container">
+    <h2>Contato</h2><hr/>
     <div class="col-md-6 inscricao">
       <h2>Teste</h2>
     </div>
@@ -208,9 +210,25 @@
 
 
 
-	<script src="js/jquery-1.10.2.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="//maps.google.com/maps/api/js?sensor=true"></script>
 	<script src="js/main.js"></script>
+  <script>
+    $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+  </script>
 </body>
 </html>
