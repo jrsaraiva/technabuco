@@ -41,11 +41,11 @@ html, body {
 #about {
 }
 
-#services {
-  background-color: #045496;
-  color: #ffffff;
-
+.bg-azul{
+    background-color: #045496;
+    color: #ffffff;
 }
+
 #services .glyphicon {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
@@ -86,4 +86,13 @@ footer .glyphicon {
 }
 footer .glyphicon:hover {
   color: #306d9f;
+}
+
+.speaker_img{
+  width: 304px;
+  height: 236px;
+}
+
+.inscricao{
+  border-right: solid 1px #ffffff; 
 }
