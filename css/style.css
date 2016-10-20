@@ -29,7 +29,7 @@ html, body {
 
 /* additional sections */
 #home {
-  background: url(../images/home.jpg) no-repeat center center fixed; 
+  background: url(../imagem/logo.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -97,4 +97,9 @@ footer .glyphicon:hover {
 
 .inscricao{
   border-right: solid 1px #ffffff; 
+}
+
+#map {
+  width:100%;
+  height:300px;
 }

@@ -37,7 +37,6 @@
 
 	<div id="home" class="home">
 	  <div class="text-vcenter">
-	    <h1>TechNabuco</h1>
 	    <a href="#about" class="btn btn-default btn-lg">O Evento</a>
 	  </div>
 	</div>
@@ -197,12 +196,54 @@
 <div id="inscricao" class="pad-section bg-azul">
   <div class="container">
     <h2>Contato</h2><hr/>
+
+    <!--Inscrição-->
     <div class="col-md-6 inscricao">
-      <h2>Teste</h2>
+      <form class="form-horizontal" role="form" method="post" action="index.php">
+        <div class="form-group">
+          <label for="name" class="col-sm-2 control-label">Nome</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Nome Completo" value="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email" class="col-sm-2 control-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" name="email" placeholder="examplo@gmail.com" value="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="name" class="col-sm-2 control-label">Unidade</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option value="recife">Recife</option>
+              <option value="olinda">Olinda</option>
+              <option value="paulista">Paulista</option>
+            </select> 
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message" class="col-sm-2 control-label">Mensagem</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" rows="4" name="message"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-10 col-sm-offset-2">
+            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-10 col-sm-offset-2">
+          </div>
+        </div>
+      </form>
     </div>
 
+    <!--Google maps-->
     <div class="col-md-6">
-      <h2>Teste</h2>
+      <div class="container" id="map">
+      </div>
     </div>
 
   </div>
@@ -216,19 +257,30 @@
 	<script src="js/main.js"></script>
   <script>
     $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+              return false;
+        }
       }
-    }
+    });
   });
-});
   </script>
+
+  <script>
+    function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var mapOptions = {
+      center: new google.maps.LatLng(-8.0163256, -34.9198884,12), zoom: 10
+    };
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+  }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 </body>
 </html>
