@@ -11,9 +11,9 @@ $matricula = $_POST['matricula'];
 //Salvar
 
 $servername = "localhost";
-$username = "root";
+$username = "nabuco";
 $password = "";
-$dbname = "technabuco";
+$dbname = "nabuco";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -32,6 +32,8 @@ $conn = null;
 
 
 //Enviar email
+
+echo "Sucesso";
 
 header("location:index.php?inscrito=true");
 ?>

@@ -105,88 +105,108 @@
       <table class="table table-hover">
         <thead>
           <tr>
-            <th>Dia 11/11</th>
-            <th>Manhã</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="text-center">19:00 – 19:30</td>
-            <td class="text-center">Abertura – Auditório</td>
-          </tr>
-          <tr>
-            <td class="text-center">19:30 – 20:30</td>
-            <td class="text-center">Workshop: Hands-on Arduino Allan Melo (Analista de desenvolvimento de software)</td>
-          </tr>
-          <tr>
-            <td>20:30 – 21:30</td>
-            <td>Microsoft System Center Vinicius Perrott </td>
-          </tr>
-      </tbody>
-    </table>
-    <table class="table table-hover">
-        <thead>
-          <tr>
-            <th>Dia 11/11</th>
+            <th>Dia 09/11</th>
+            <th></th>
+            <th></th>
             <th>Noite</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>19:00 – 19:30</td>
-            <td>Abertura – Auditório</td>
+            <td class="text-center">18:00 – 18:20</td>
+            <td class="text-center">Crendeciamento</td>
+            <td class="text-center">Crendeciamento</td>
+            <td class="text-center">Crendeciamento</td>
           </tr>
           <tr>
-            <td>19:30 – 20:30</td>
-            <td>Workshop: Hands-on Arduino Allan Melo (Analista de desenvolvimento de software)</td>
+            <td class="text-center">18:25 – 18:50</td>
+            <td class="text-center">Abertura (Coordenações de Curso)</td>
+            <td class="text-center">Abertura (Coordenações de Curso)</td> 
+            <td class="text-center">Abertura (Coordenações de Curso)</td> 
           </tr>
           <tr>
-            <td>20:30 – 21:30</td>
-            <td>Microsoft System Center Vinicius Perrott </td>
+            <td>19:00 – 19:45</td>
+            <td>Erick Simões - Makerama " Movimento Maker" </td>
+            <td>Milton Morais - "Metodologia para apoiar Maturidade em Configurações de Segurança de Servidor em um Ambiente de Data Center" </td>
+            <td>Eder Gondim (5A) </td>
           </tr>
       </tbody>
     </table>
     <table class="table table-hover">
         <thead>
           <tr>
-            <th>Dia 12/11</th>
+            <th>Dia 10/11</th>
+            <th></th>
+            <th></th>
             <th>Manhã</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>19:00 – 19:30</td>
-            <td>Abertura – Auditório</td>
+            <td>08:30 – 08:50</td>
+            <td>Credenciamento</td>
+            <td>Credenciamento</td>
+            <td>Credenciamento</td>
           </tr>
           <tr>
-            <td>19:30 – 20:30</td>
-            <td>Workshop: Hands-on Arduino Allan Melo (Analista de desenvolvimento de software)</td>
+            <td>09:00 – 09:45</td>
+            <td>Gilberto Santana - "O quão Social é sua rede?"</td>
+            <td>Não havera worshop de seg pela manha</td>
+            <td>Minicurso</td>
           </tr>
           <tr>
-            <td>20:30 – 21:30</td>
-            <td>Microsoft System Center Vinicius Perrott </td>
+            <td>10:00 – 10:45</td>
+            <td>Adilson & Allyson Andrade - Comunicação Assitiva </td>
+            <td>Não havera worshop de seg pela manha</td>
+            <td>Minicurso</td>
+          </tr>
+          <tr>
+            <td>11:00 – 11:45</td>
+            <td>Wellinton (Startup e Ferramenta de servicedesk OTRS.) & Lidiany (O empreendedorismo e as startups)</td>
+            <td>Não havera worshop de seg pela manha</td>
+            <td>Minicurso</td>
           </tr>
       </tbody>
     </table>
     <table class="table table-hover">
         <thead>
           <tr>
-            <th>Dia 12/11</th>
+            <th>Dia 10/11</th>
+            <th></th>
+            <th></th>
             <th>Noite</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>19:00 – 19:30</td>
-            <td>Abertura – Auditório</td>
+            <td>18:00 – 18:20</td>
+            <td>Credenciamento</td>
+            <td>Credenciamento</td>
+            <td>Credenciamento</td>
           </tr>
           <tr>
-            <td>19:30 – 20:30</td>
-            <td>Workshop: Hands-on Arduino Allan Melo (Analista de desenvolvimento de software)</td>
+            <td>18:25 – 18:50</td>
+            <td>Abertura (Coordenações de Curso)</td>
+            <td>Abertura (Coordenações de Curso)</td>
+            <td>Abertura (Coordenações de Curso)</td>
           </tr>
           <tr>
-            <td>20:30 – 21:30</td>
-            <td>Microsoft System Center Vinicius Perrott </td>
+            <td>19:00 – 19:45</td>
+            <td>Djalma - (TSM & TDP- IBM)</td>
+            <td>Jallison Fontes - "Palestra: Roteadores Domésticos mais Seguros utilizando Software Livre"</td>
+            <td>Minicurso</td>
+          </tr>
+          <tr>
+            <td>20:00 – 20:45</td>
+            <td>Dayvson - (SDN)</td>
+            <td>Arthur Carvalho - "</td>
+            <td>Minicurso</td>
+          </tr>
+          <tr>
+            <td>21:00 – 21:45</td>
+            <td>Allan Melo (Programação reativa com RXJava)</td>
+            <td>Carlos Eduardo - "</td>
+            <td>Minicurso</td>
           </tr>
       </tbody>
     </table>
