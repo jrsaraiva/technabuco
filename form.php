@@ -6,37 +6,32 @@ $nome = $_POST['name'];
 $email = $_POST['email'];
 $unidade = $_POST['unidade'];
 $message = $_POST['message'];
+$matricula = $_POST['matricula'];
 
-if (isset($email = $_POST['email'])){
+//Salvar
 
-$de = 'iltonk.si@gmail.com';
-$titulo = 'Inscrições TechNabuco <'. $nome.' >';
-$body ="Prezado ".$nome.", \r\n";
-$body .= " Informamos que sua inscrição foi realizada com sucesso, porém para confirmar sua inscrição você deverá comparecer na unidade Joaquim Nabuco Recife com 1KG de alimento não parecível.";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "technabuco";
+
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $sql = "INSERT INTO `inscricao` (`id`, `nome`, `matricula`, `email`, `unidade`, `deficiente`, `observacao`) VALUES (NULL, '".$nome."', '".$matricula."', '".$email."', '".$unidade."', '0', '".$message."');";
+    // use exec() because no results are returned
+    $conn->exec($sql);
+    }
+catch(PDOException $e)
+    {
+    echo $sql . "<br>" . $e->getMessage();
+    }
+
+$conn = null;
 
 
-$headers = array(
-    'From' => $de,
-    'To' => $email,
-    'Subject' => $titulo
-);
+//Enviar email
 
-$smtp = Mail::factory('smtp', array(
-        'host' => 'ssl://smtp.gmail.com',
-        'port' => '465',
-        'auth' => true,
-        'username' => 'iltonk.si@gmail.com',
-        'password' => '<senha>'
-    ));
-
-$mail = $smtp->send($email, $headers, $body);
-
-if (PEAR::isError($mail)) {
-    header("location:index.html");
-} else {
-    header("location:index.html");
-}
-
-}else{
-	header("location:index.html");
-}
+header("location:index.php?inscrito=true");
+?>

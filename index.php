@@ -6,12 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
 
 	<link href="css/style.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="js/notify.min.js"></script>
 </head>
 <body>
-
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -34,7 +35,7 @@
 			</div>
 		</div>
 	</nav>
-
+ 
 	<div id="home" class="home">
 	  <div class="text-vcenter">
 	    
@@ -203,13 +204,19 @@
         <div class="form-group">
           <label for="name" class="col-sm-2 control-label">Nome</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Nome Completo" value="">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Nome Completo" value="" required="true">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="name" class="col-sm-2 control-label">Matricula</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="matricula" name="matricula" placeholder="1122334455" value="" required="true">
           </div>
         </div>
         <div class="form-group">
           <label for="email" class="col-sm-2 control-label">Email</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" name="email" placeholder="examplo@gmail.com" value="">
+            <input type="email" class="form-control" id="email" name="email" placeholder="examplo@gmail.com" value="" required="true">
           </div>
         </div>
         <div class="form-group">
@@ -223,7 +230,14 @@
           </div>
         </div>
         <div class="form-group">
-          <label for="message" class="col-sm-2 control-label">Mensagem</label>
+          <label for="name" class="col-sm-2 control-label">Possui necessidade especial</label>
+          <div class="col-sm-1">
+            <input type="checkbox" class="form-control" id="necessidade" name="necessidade[]" value="1">Sim
+            <input type="checkbox" class="form-control" id="necessidade2" name="necessidade[]" value="0">Não
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message" class="col-sm-2 control-label">Qual tipo de ajuda</label>
           <div class="col-sm-10">
             <textarea class="form-control" rows="4" name="message"></textarea>
           </div>
@@ -251,13 +265,7 @@
 <div id="footer" class="pad-section">
 
 </div>
-
-
-
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="//maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="js/main.js"></script>
   <script>
     $(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
@@ -285,5 +293,14 @@
   }
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+  <?php 
+    if(isset($_GET['inscrito'])){ ?>
+
+      <script src="js/tech.js"></script> 
+   <?php    
+      echo "<script>notify();</script>";
+    }
+  ?>
 </body>
 </html>
