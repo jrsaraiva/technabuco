@@ -10,8 +10,14 @@ html, body {
    text-align: center;   
 }
 
-.table td {
+.table td, .table .table-responsive td {
   width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .table-responsive > .table > tbody > tr > td {
+    white-space: normal; 
+  }
 }
 
 /* padded section */
