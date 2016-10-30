@@ -61,32 +61,32 @@
   <div class="container">
     <h2 class="text-center" >Palestrantes</h2> <hr />
     <div class="row text-center">
-      <div class="col-sm-3 col-xs-6">
-        <img src="imagem/mulher.jpg" class="speaker_img img-circle"/>
+      <div class="col-sm-3">
+        <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
         <h4>Palestrante 1</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
       </div>
-      <div class="col-sm-3 col-xs-6">
-        <img src="imagem/mulher.jpg" class="speaker_img img-circle"/>
+      <div class="col-sm-3">
+        <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
         <h4>Palestrante 2</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
       </div>
-      <div class="col-sm-3 col-xs-6">
-        <img src="imagem/mulher.jpg" class="speaker_img img-circle"/>
+      <div class="col-sm-3">
+        <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
         <h4>Palestrante 3</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
       </div>
-      <div class="col-sm-3 col-xs-6">
-        <img src="imagem/mulher.jpg" class="speaker_img img-circle"/>
+      <div class="col-sm-3">
+        <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
         <h4>Palestrante 4</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
@@ -240,7 +240,7 @@
           </div>
         </div>
         <div class="form-group">
-          <label for="name"  class="col-sm-2 control-label">Unidade</label>
+          <label for="name" class="col-sm-2 control-label">Unidade</label>
           <div class="col-sm-10" >
             <select class="form-control" name="unidade">
               <option value="recife">Recife</option>
@@ -251,9 +251,13 @@
         </div>
         <div class="form-group">
           <label for="name" class="col-sm-2 control-label">Possui necessidade especial</label>
-          <div class="col-sm-1">
-            <input type="checkbox" class="form-control" id="necessidade" name="necessidade[]" value="1">Sim
-            <input type="checkbox" class="form-control" id="necessidade2" name="necessidade[]" value="0">Não
+          <div class="col-md-6">
+          	<label class="checkbox-inline">
+          		<input type="checkbox" id="necessidade" name="necessidade[]" value="1">Sim	
+          	</label>
+            <label for="" class="checkbox-inline">
+            	<input type="checkbox" id="necessidade2" name="necessidade[]" value="0">Não
+            </label>
           </div>
         </div>
         <div class="form-group">
