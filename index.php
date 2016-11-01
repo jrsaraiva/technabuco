@@ -63,36 +63,102 @@
     <div class="row text-center">
       <div class="col-sm-3">
         <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
-        <h4>Palestrante 1</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+        <h4>Erick Simões de Matos</h4>
+        <p>Bacharel em Sistemas de Informação. Possui experiência como desenvolvedor de software, controle de qualidade de código e instrutor de robótica educacional. Atua como pesquisador no Cesar e diretor do Makerama, promovendo eventos e ações de fomento à educação tecnológica e cultura Maker.</p>
+        <hr/>
+        <h4>Palestra - Movimento Maker</h4>
+        <p>"O movimento maker pode ser hoje um tema atual, mas sua origem e trajetória até como o conhecemos só foi 
+possível graça a fatores muito específicos. A importância do movimento, seu impacto na 
+sociedade e como fazer parte é o tema dessa palestra.                      
+"</p>
         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
       </div>
       <div class="col-sm-3">
         <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
-        <h4>Palestrante 2</h4>
+        <h4>Djalma Filho</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+        <hr/>
+        <h4>Palestra - </h4>
+        <p>Apresentar as soluções de backup e recovery da IBM. Tivoli Storage Manager (TSM) & Tivoli Data Protection (TDP)</p>
         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
       </div>
       <div class="col-sm-3">
         <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
-        <h4>Palestrante 3</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+        <h4>Jallison Fontes</h4>
+        <p>Formado em Redes de Computadores pela Faculdade dos Guararapes. Especialista em Segurança de redes - Pós graduação Segurança de Redes Estácio - FIR recife. Entusiasta em software Livre. 15 Anos na área de Tecnologia, atualmente Gestor de Tecnologias na Empresa ECOPESA AMBIENTAL S.A e também realiza Consultoria em Segurança e infraestrutura de Redes.</p>
+        <hr/>
+        <h4>Palestra - Roteadores Domésticos mais Seguros utilizando Software Livre</h4>
+        <p>"Para facilitar a utilização dos usuários, os fabricantes tem a cada
+dia desenvolvido equipamentos com suas função cada vez mais
+simplificadas, isso ajuda bastante, mas até que ponto estamos sub
+utilizando o equipamento que foi adquirido? e será que realmente são seguros?
+ Com uso de software livre podemos utilizar de fato todo o recurso oferecido pelo equipamento 
+e também reforçar os recursos de segurança para que este ofereça acesso a rede e internet de forma mais segura"</p>
         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
       </div>
       <div class="col-sm-3">
         <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
-        <h4>Palestrante 4</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+        <h4>Milton Moraes</h4>
+        <p>Professor formador do IFPE. Consultor de TI da Confidence. Colaborador da Plataforma OPENREDU. Mestrando em Ciência da Computação - CIn-UFPE e especialista em Segurança de Redes.</p>
+        <hr/>
+        <h4>Palestra - Metodologia para apoiar Maturidade em Configurações de Segurança de Servidor em um Ambiente de Data Center.</h4>
+        <p>"No contexto atual corporativo, existem numerosas ameaças para a segurança da informação 
+que são tratadas de forma inadequada gerando vários impactos que podem abalar as finanças e reputações. 
+Várias empresas utilizam modernos centros de dados como uma facilidade que hospeda dezenas de milhares de computadores. 
+Assim, existem centros de dados responsáveis pela prestação de serviços e apoiar o cumprimento do negócio. 
+Este palestra tem por objetivo apresentar uma metodologia de avaliar a maturidade da configuração de segurança de servidores num ambiente de data center."</p>
         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
       </div>
+
+      <div class="col-sm-3">
+        <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
+        <h4>Gilberto Santana</h4>
+        <p>Gilberto Santana fez sua inserção em tecnologia em 1982. Participou de projetos com a secretárias de Saúde em muitos estados brasileiros. Consultor linux pela FGV/SP por 4 (quatro) anos. Contribuiu em equipes de novas empresas. Atualmente é apresentador do programa MATÉRIA ON AIR no youtube e jornalista no projeto materiaprimape no facebook.</p>
+        <hr/>
+        <h4>Palestra - O quão Social é sua rede?.</h4>
+        <p>Como unir a tecnologia ao real significado da palavra Fãs em sua rede social</p>
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+      </div>
+
+      <div class="col-sm-3">
+        <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
+        <h4>Heron Santos</h4>
+        <p> Esp. Heron Fábio Santos - Engenharia Civil pela UFPE em 1989. Tendo atuado como Gerente de Informática por mais de 10 anos e atualmente é consultor e professor em gerenciamento de projetos. Possui as certificações PMP, PMI-SP e PMI-RMP em Gerenciamento de Projetos pelo Project Management Institute (PMI) e também como Especialista em Gerenciamento de Projetos com MS-Project (MCTS).</p>
+        <hr/>
+        <h4>Palestra - BIM-LIN-GP, as tendências da Engenharia e Arquitetura.</h4>
+        <p>" Mostrará a atual tendência do planejamento na área de engenharia utilizando as metodologia BIM e LEAN. 
+Especificamente na fase de projetos,  a integração dos cronogramas realizados nas diversas ferramentas como MS-Project,
+ Primavera, com as maquetes 3D do Revit (por exemplo), resultando na simulação 3D no tempo do projeto, 
+e na fase de execução a necessidade de utilização de técnicas LEAN.
+ "</p>
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+      </div>
+
+      <div class="col-sm-3">
+        <img src="imagem/mulher.jpg" class="speaker_img img-circle img-responsive"/>
+        <h4>Allan Melo</h4>
+        <p>Mobile Developer na Liferay, graduado em Ciência da Computação pela Faculdade Guararapes, Pós graduado em Desenvolvimento de alicações móveis pelo C.E.S.A.R.Edu. Entusiasta em iOS, Android, Arduino e IoT.</p>
+        <hr/>
+        <h4>Palestra - Programação reativa com RXJava.</h4>
+        <p>"Nessa palestra iremos conhecer um pouco sobre RxJava, uma biblioteca que traz a possibilidade de desenvolver
+ aplicações reativas, baseadas em eventos utilizando sequências observáveis."</p>
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+      </div>
+
     </div>
   </div>
 </div>
@@ -105,10 +171,10 @@
       <table class="table table-hover">
         <thead>
           <tr>
-            <th>Dia 09/11</th>
-            <th></th>
-            <th></th>
-            <th>Noite</th>
+            <th>Dia 09/11 - Noite</th>
+            <th>AUDITORIO (200 p.)</th>
+            <th>Workshop Seg (80p)</th>
+            <th>LABORATORIO (30 p.)</th>
           </tr>
         </thead>
         <tbody>
@@ -130,15 +196,27 @@
             <td>Milton Morais - "Metodologia para apoiar Maturidade em Configurações de Segurança de Servidor em um Ambiente de Data Center" </td>
             <td>Eder Gondim (5A) </td>
           </tr>
+          <tr>
+            <td>20:00 – 20:45</td>
+            <td>Heron Santos - "BIM-LIN-GP, As tendências da Engenharia e Arquitetura" </td>
+            <td>Paulo Perris - "Palestra: Segurança em BYOD" </td>
+            <td>Petrônio (4C)</td>
+          </tr>
+          <tr>
+            <td>20:00 – 20:45</td>
+            <td>"Celso Caldeira Sant'Anna Filho Palestra: Introdução ao Raspberry Pi"</td>
+            <td>Enio Cesar "Investigação em meio digital: enveredando como perito em Computação Forense" </td>
+            <td>Lenin (3A)</td>
+          </tr>
       </tbody>
     </table>
     <table class="table table-hover">
         <thead>
           <tr>
-            <th>Dia 10/11</th>
-            <th></th>
-            <th></th>
-            <th>Manhã</th>
+            <th>Dia 10/11 - Manhã</th>
+            <th>AUDITORIO (200 p.)</th>
+            <th>Workshop Seg (80p)</th>
+            <th>LABORATORIO (30 p.)</th>
           </tr>
         </thead>
         <tbody>
@@ -171,10 +249,10 @@
     <table class="table table-hover">
         <thead>
           <tr>
-            <th>Dia 10/11</th>
-            <th></th>
-            <th></th>
-            <th>Noite</th>
+            <th>Dia 10/11 - Noite</th>
+            <th>AUDITORIO (200 p.)</th>
+            <th>Workshop Seg (80p)</th>
+            <th>LABORATORIO (30 p.)</th>
           </tr>
         </thead>
         <tbody>
@@ -205,7 +283,7 @@
           <tr>
             <td>21:00 – 21:45</td>
             <td>Allan Melo (Programação reativa com RXJava)</td>
-            <td>Carlos Eduardo - "</td>
+            <td>Carlos Eduardo - "O uso da criptografia em SVEs"</td>
             <td>Minicurso</td>
           </tr>
       </tbody>
@@ -230,7 +308,7 @@
         <div class="form-group">
           <label for="name" class="col-sm-2 control-label">Matricula</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="matricula" name="matricula" placeholder="1122334455" value="" required="true">
+            <input type="number" class="form-control" id="matricula" name="matricula" placeholder="1122334455" value="" max="99999999" required="true">
           </div>
         </div>
         <div class="form-group">
